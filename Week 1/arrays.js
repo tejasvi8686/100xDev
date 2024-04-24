@@ -47,24 +47,29 @@ console.log("The biggest number in the array is:", biggestNumber);
 
 // console.log(users1['gender']);
 
-const allUsers = [
-  {
-    firstName: "tejasvi",
-    gender: "male",
-  },
-  {
-    firstName: "abhiraj",
-    gender: "male",
-  },
-  {
-    firstName: "priya",
-    gender: "female",
-  },
-];
+// const allUsers = [
+//   {
+//     firstName: "tejasvi",
+//     gender: "male",
+//   },
+//   {
+//     firstName: "abhiraj",
+//     gender: "male",
+//   },
+//   {
+//     firstName: "priya",
+//     gender: "female",
+//   },
+// ];
 
+// for (let i = 0; i<allUsers.length; i++ ){
+//   if(allUsers[i]["gender"] == "male"){
+//     console.log(allUsers[i]["firstName"]);
+//   }
+// }
 
-for (let i = 0; i<allUsers.length; i++ ){
-  if(allUsers[i]["gender"] == "male"){
-    console.log(allUsers[i]["firstName"]);
-  }
+function greet() {
+  console.log("hello world");
 }
+
+setTimeout(greet, 1 * 2000);
