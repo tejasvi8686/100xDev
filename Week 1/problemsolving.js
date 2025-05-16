@@ -82,22 +82,41 @@
 //  }
 //  console.log(reversed);
 
-function sum(num1, num2, fntoCall) {
-  let result = num1 + num2;
-  fntoCall(result);
-}
+// function sum(num1, num2, fntoCall) {
+//   let result = num1 + num2;
+//   fntoCall(result);
+// }
 
-function displayResult(data) {
-  console.log("the sum of the two numbers is", data);
-}
+// function displayResult(data) {
+//   console.log("the sum of the two numbers is", data);
+// }
 
-const ans = sum(10, 20, displayResult);
-console.log("ans", ans);
+// const ans = sum(10, 20, displayResult);
+// console.log("ans", ans);
 
 
-function calculateAirthmatic (a,b, type){}
+// function calculateAirthmatic (a,b, type){}
 
-function calculateAirthmatic(a, b, arithmeticFinalFunction) {
-  const ans =  arithmeticFinalFunction(a, b);
-  
-}
+// function calculateAirthmatic(a, b, arithmeticFinalFunction) {
+//   const ans =  arithmeticFinalFunction(a, b);
+
+// } 
+
+// create a counter in javascript (counts down from 30 to 0)
+
+// for (let i = 30; i >= 0; i--) {
+//   console.log(i);
+// }
+
+
+// calculate the time takes between a setTImeout call and the inner function actually runnning ;
+
+setTimeout(function(){
+  console.log("hello");
+}, 1000);
+
+
+// create a terminial clock (HH:MM:SS)
+
+
+
