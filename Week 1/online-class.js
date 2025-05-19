@@ -264,3 +264,11 @@ function sumofcube(a,b){
 
 console.log(sumofcube(2, 5));
 console.log(sumofSquare(1,2));
+
+
+// function sumofSquare(a, b){
+//   const val1 = square(a)
+//   const val2 = square(b)
+//   return val1 + val2;
+
+// }
